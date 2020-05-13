@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Acres - Documentation</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/docs.css">
+
+</head>
+
+<body>
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="docs-banner bg-center bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/2.jpg')">
+        <h1 class="text-white">Acres - Real Estate HTML5 Template</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="sidebar">
+						<div class="sidebar-widget">
+								<div class="mx-auto mb-5">
+									<img src="assets/img/logo.png" alt="Acres">
+								</div>
+
+							<ul>
+								<li> <a href="#getStarted">Getting Started</a> </li>
+                <li> <a href="#navigation">Navigation</a> </li>
+                <li> <a href="#spacing">Spacing</a> </li>
+                <li> <a href="#googleFonts">Google Fonts</a> </li>
+                <li> <a href="#maps">Maps</a> </li>
+                <li> <a href="#cssStructure">Css Structure</a> </li>
+                <li> <a href="#credits">Credits</a> </li>
+							</ul>
+
+						</div>
+					</div>
+        </div>
+        <div class="col-md-8">
+          <div class="dsh-panel">
+            <div class="dsh-panel-body">
+              <!-- Get Started -->
+              <div id="getStarted">
+                <div class="dsh-section-title">
+                  <h2>Getting Started</h2>
+                  <p>Thank you for purchasing <b class="text-primary">Acres</b>. We ara always more than happy to help you with pre and post sales. If you have any question about the template, and if the documentation doesn't mention anything about it. Please message us at info@androthemes.com</p>
+                </div>
+              </div>
+              <!-- /Get Started -->
+              <hr>
+
+              <!-- Navigation -->
+              <div id="navigation">
+                <h2>Navigation</h2>
+                <p>For now, we provide 1 header style only, which can be alternated between 3 states: </p>
+                <p> <b>Sticky</b> by adding class <code>can-sticky</code> to the <code>header</code> element </p>
+                <p> <b>Absolute</b> by adding class <code>aboslute-header</code> to the <code>header</code> element </p>
+                <p> <b>Static</b> default behaviour </p>
+              </div>
+              <!-- /Navigation -->
+              <hr>
+              <!-- Spacing -->
+              <div id="spacing">
+                <h2>Spacing</h2>
+                <p>Aside from bootstrap spacing utility classes, we provide 2 spacing classes for section seperation </p>
+                <p> <b>Default spacing</b> by adding class <code>section</code> to any element </p>
+                <p> <b>Irregular spacing</b> by adding class <code>section-padding</code> to any element (This is used incase you have elements with bottom margins)</p>
+              </div>
+              <!-- /Spacing -->
+              <!-- Changing fonts -->
+              <hr>
+              <div id="googleFonts">
+                <h2>Google Fonts</h2>
+                <p>By default, Acres uses  <b>Open Sans, and Poppins as the main fonts accross the whole template</b>. You can change that by accessing the <code>style.css</code> file and changing the Font URL at the very start of the file. Simply go to <a href="https://fonts.google.com/" target="_blank">Google fonts</a>,
+                select the font you like, and replace the link with the one we currently have in the style sheet.</p>
+              </div>
+              <!-- /Changing fonts -->
+              <!-- Maps -->
+              <hr>
+              <div id="maps">
+                <h2>Maps</h2>
+                <p>Acres uses <b>Mapbox</b> as it's primary map library. To be able to start using the map, you must first grab an API from the mapbox <a href="https://www.mapbox.com/" target="_blank">Website</a>.  </p>
+                <p>Simply Sign in, and you will be redirected to your dashboard where your API key belongs. Copy that key and paste it in the files as described below.</p>
+                <p>All code for the maps lives in <b>assets/js/map.js & submit-listing-map.js</b>. Those files are linked
+                under <b>Page Specific Scripts & Styles</b> before the end of the <code>body</code> tag and in the <code>head</code>. And in those files, is where you will be replacing your API Key</p>
+              </div>
+              <!-- /Maps -->
+
+              <hr>
+              <div id="cssStructure">
+                <h2>Css Structure</h2>
+                <pre>
+                  /*
+                  Template Name: Acres - Real Estate HTML5 Template
+                  Author: Androthemes
+                  Author URL: https://themeforest.net/user/androthemes
+                  Version: 1.0.0
+                  */
+                  /*===========================
+                   =  Table of Contents
+                   0. Keyframes
+                   1. General
+                   1.1. Typography
+                   1.2. Section spacings
+                   1.3. Forms
+                   1.4. Buttons
+                   1.5. Colors & Badges
+                   1.6. Modals & Popups
+                   1.7. Tables
+                   1.8. Tabs
+                   2. Header
+                   3. Footer
+                   4. Banner
+                   5. Subheader
+                   6. Shortcodes
+                   6.0. Blog Posts
+                   6.1. Featured Listings
+                   6.2. CTA
+                   6.3. Agent
+                   6.4. testimonials
+                   6.5. Infographics
+                   6.6. Locations
+                   6.7. Single Agent
+                   6.8. Categories
+                   6.9. Top Listings
+                   6.10. Countries
+                   7. Misc
+                   8. Pages
+                   8.0. Post Single
+                   8.1. Listing pages
+                   8.2. Submit Listing
+                   8.3. Compare Listings
+                   8.4. Agent Profile
+                   8.5. Coming Soon Page
+                   8.6. About Us Page
+                   8.7. 404 Page
+                   8.8 Login & Register
+                   8.9 Contact Us
+                   8.10. Pricing
+                   9. Responsive
+                  ===========================*/
+                </pre>
+
+              </div>
+
+              <!-- Credits -->
+              <hr>
+              <div id="credits">
+                <h2>Credits</h2>
+                <p>The following are the libraries used by Acres</p>
+                <ul class="dsh-list">
+                  <li> Pixabay</li>
+                  <li> Pexels</li>
+                  <li> Flaticon </li>
+                  <li> Fontawesome</li>
+                  <li> Google Fonts</li>
+                  <li> Bootstrap 4.3</li>
+                  <li> jQuery</li>
+                  <li> jquery Slim Scroll</li>
+                  <li> Popper</li>
+                  <li> Magnific Popup</li>
+                  <li> Slick Sliders</li>
+                </ul>
+              </div>
+              <!-- /Credits -->
+
+              <hr>
+              <div>
+                <h2>Final Thanks</h2>
+                <p>We thank you so much for using Acres as your Food Blog template, we will be providing unlimited updates and constant support if you need it.</p>
+              </div>
+
+              <footer class="mt-5"> <b class="mb-0">Copyright (c) 2020 AndroThemes All Rights Reserved.</b> </footer>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+		</div>
+
+  </section>
+
+	</main>
+
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

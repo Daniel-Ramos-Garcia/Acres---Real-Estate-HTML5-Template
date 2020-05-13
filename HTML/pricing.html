@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acres - Real Estate HTML5 Template</title>
+
+  <!-- Vendor Stylesheets -->
+  <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/plugins/slick.css">
+  <link rel="stylesheet" href="assets/css/plugins/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
+
+  <!-- Icon Fonts -->
+  <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css">
+
+  <!-- Acres Style sheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/primary-skin.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+
+</head>
+
+<body>
+
+  <!-- Preloader Start -->
+  <div class="acr-preloader">
+    <div class="acr-preloader-inner">
+      <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Aside (Mobile Navigation) -->
+  <aside class="main-aside">
+
+    <div class="aside-title">
+      <div class="aside-controls aside-trigger">
+        <h4>Menu</h4>
+        <div class="close-btn close-dark">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="aside-scroll">
+      <ul>
+        <!-- Pages Start -->
+        <li class="menu-section-title">Pages</li>
+        <li class="menu-item menu-item-has-children">
+          <a href="#"> <i class="flaticon-home"></i> Home Pages</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="index.html">Home v1</a> </li>
+            <li class="menu-item"> <a href="home-v2.html">Home v2</a> </li>
+            <li class="menu-item"> <a href="home-v3.html">Home v3</a> </li>
+            <li class="menu-item"> <a href="home-v4.html">Home v4</a> </li>
+            <li class="menu-item"> <a href="home-v5.html">Home v5</a> </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="#"><i class="flaticon-writing-1"></i> Blog</a>
+          <ul class="submenu">
+            <li class="menu-item menu-item-has-children">
+              <a href="blog-grid.html">Blog Archive</a>
+              <ul class="submenu">
+                <li class="menu-item"> <a href="blog-grid.html">Grid View</a> </li>
+                <li class="menu-item"> <a href="blog-list.html">List View</a> </li>
+
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="blog-single.html">Blog Single</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="#"> <i class="flaticon-layers"></i> Pages</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="about-us.html">About Us</a> </li>
+            <li class="menu-item"> <a href="services.html">Services</a> </li>
+            <li class="menu-item"> <a href="faq.html">FAQ</a> </li>
+            <li class="menu-item"> <a href="pricing.html">Pricing</a> </li>
+            <li class="menu-item"> <a href="contact-us.html">Contact Us</a> </li>
+            <li class="menu-item"> <a href="coming-soon.html">Coming Soon</a> </li>
+            <li class="menu-item"> <a href="404.html">404 Page</a> </li>
+            <li class="menu-item"> <a href="login.html">Login</a> </li>
+            <li class="menu-item"> <a href="register.html">Register</a> </li>
+            <li class="menu-item"> <a href="legal.html">Legal</a> </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="#"> <i class="flaticon-list"></i> Listings</a>
+          <ul class="submenu">
+            <li class="menu-item menu-item-has-children">
+              <a href="listing-map.html">Listings Archive</a>
+              <ul class="submenu">
+                <li class="menu-item"> <a href="listing-grid.html">Grid View</a> </li>
+                <li class="menu-item"> <a href="listing-list.html">List View</a> </li>
+                <li class="menu-item"> <a href="listing-map.html">Map View</a> </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="listing-details-v1.html">Listing Details</a>
+              <ul class="submenu">
+                <li class="menu-item"> <a href="listing-details-v1.html">Listing Details v1</a> </li>
+                <li class="menu-item"> <a href="listing-details-v2.html">Listing Details v2</a> </li>
+                <li class="menu-item"> <a href="listing-details-v3.html">Listing Details v3</a> </li>
+              </ul>
+            </li>
+            <li class="menu-item"> <a href="submit-listing.html">Submit Listing</a> </li>
+            <li class="menu-item"> <a href="compare-listings.html">Compare Listings</a> </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="agent-archive.html"> <i class="flaticon-headset"></i> Agents</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="agent-archive.html">Agents Archive</a> </li>
+            <li class="menu-item"> <a href="agent-details.html">Agent Details</a> </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="profile.html">Agent Profile</a>
+              <ul class="submenu">
+                <li class="menu-item"> <a href="profile.html">My Account</a> </li>
+                <li class="menu-item"> <a href="profile-listings.html">My Listings</a> </li>
+                <li class="menu-item"> <a href="profile-saved-listings.html">Saved Listings</a> </li>
+
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="agency-archive.html"> <i class="flaticon-company"></i> Agency</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="agency-archive.html">Agency Archive</a> </li>
+            <li class="menu-item"> <a href="agency-details.html">Agency Details</a> </li>
+          </ul>
+        </li>
+
+        <!-- Pages End -->
+
+        <!-- Social Media Start -->
+        <li class="menu-section-title">Get Social</li>
+        <li class="menu-item"> <a href="#"> <i class="flaticon-facebook"></i>Facebook</a> </li>
+        <li class="menu-item"> <a href="#"> <i class="flaticon-linkedin"></i> Linkedin </a> </li>
+        <li class="menu-item"> <a href="#"> <i class="flaticon-twitter"></i> Twitter </a> </li>
+        <li class="menu-item"> <a href="#"> <i class="flaticon-instagram"></i> Instagram </a> </li>
+        <!-- Social Media End -->
+
+      </ul>
+
+    </div>
+
+  </aside>
+  <div class="aside-overlay aside-trigger"></div>
+
+  <!-- Header Start -->
+  <header class="main-header header-fw can-sticky header-1">
+
+    <!-- Top Header Start -->
+    <div class="top-header">
+      <div class="top-header-inner">
+
+        <ul class="social-media">
+          <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+          <li> <a href="#"> <i class="fab fa-pinterest-p"></i> </a> </li>
+          <li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a> </li>
+          <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+        </ul>
+
+        <ul class="top-header-nav">
+          <li> <a href="login.html"> Login</a> </li>
+          <li>or</li>
+          <li> <a href="register.html"> Signup</a> </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <nav class="navbar">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html"> <img src="https://via.placeholder.com/169x71" alt="logo"> </a>
+      <!-- Menu -->
+      <ul class="navbar-nav">
+        <li class="menu-item menu-item-has-children">
+          <a href="#">Home Pages</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="index.html">Home v1</a> </li>
+            <li class="menu-item"> <a href="home-v2.html">Home v2</a> </li>
+            <li class="menu-item"> <a href="home-v3.html">Home v3</a> </li>
+            <li class="menu-item"> <a href="home-v4.html">Home v4</a> </li>
+            <li class="menu-item"> <a href="home-v5.html">Home v5</a> </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="#">Blog</a>
+          <ul class="submenu">
+            <li class="menu-item menu-item-has-children">
+              <a href="blog-grid.html">Blog Archive</a>
+              <ul class="submenu">
+                <li class="menu-item"> <a href="blog-grid.html">Grid View</a> </li>
+                <li class="menu-item"> <a href="blog-list.html">List View</a> </li>
+
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="blog-single.html">Blog Single</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children mega-menu-wrapper">
+          <a href="#">Pages</a>
+          <ul class="submenu">
+            <li>
+              <img src="https://via.placeholder.com/500x884" alt="img">
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-lg-4">
+                    <div class="mega-menu-item">
+                      <h5>Featured Listings</h5>
+                      <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                        making it over 2000 years old.
+                      </p>
+                      <a href="listing-map.html" class="btn-custom secondary">View All</a>
+                    </div>
+                  </div>
+
+                  <div class="offset-lg-1 col-lg-3">
+                    <div class="mega-menu-item">
+                      <h5>Pages</h5>
+                      <a href="about-us.html">About Us</a>
+                      <a href="services.html">Services</a>
+                      <a href="faq.html">FAQ</a>
+                      <a href="pricing.html">Pricing</a>
+                      <a href="contact-us.html">Contact Us</a>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="mega-menu-item">
+                      <h5>Other Pages</h5>
+                      <a href="coming-soon.html">Coming Soon</a>
+                      <a href="404.html">404 Page</a>
+                      <a href="login.html">Login</a>
+                      <a href="register.html">Register</a>
+                      <a href="legal.html">Legal</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="#">Listings</a>
+          <ul class="submenu">
+            <li class="menu-item menu-item-has-children">
+              <a href="listing-map.html">Listings Archive</a>
+              <ul class="submenu">
+                <li class="menu-item"> <a href="listing-grid.html">Grid View</a> </li>
+                <li class="menu-item"> <a href="listing-list.html">List View</a> </li>
+                <li class="menu-item"> <a href="listing-map.html">Map View</a> </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="listing-details-v1.html">Listing Details</a>
+              <ul class="submenu">
+                <li class="menu-item"> <a href="listing-details-v1.html">Listing Details v1</a> </li>
+                <li class="menu-item"> <a href="listing-details-v2.html">Listing Details v2</a> </li>
+                <li class="menu-item"> <a href="listing-details-v3.html">Listing Details v3</a> </li>
+              </ul>
+            </li>
+            <li class="menu-item"> <a href="submit-listing.html">Submit Listing</a> </li>
+            <li class="menu-item"> <a href="compare-listings.html">Compare Listings</a> </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="agent-archive.html">Agents</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="agent-archive.html">Agents Archive</a> </li>
+            <li class="menu-item"> <a href="agent-details.html">Agent Details</a> </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="profile.html">Agent Profile</a>
+              <ul class="submenu submenu-right">
+                <li class="menu-item"> <a href="profile.html">My Account</a> </li>
+                <li class="menu-item"> <a href="profile-listings.html">My Listings</a> </li>
+                <li class="menu-item"> <a href="profile-saved-listings.html">Saved Listings</a> </li>
+
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item menu-item-has-children">
+          <a href="agency-archive.html">Agency</a>
+          <ul class="submenu">
+            <li class="menu-item"> <a href="agency-archive.html">Agency Archive</a> </li>
+            <li class="menu-item"> <a href="agency-details.html">Agency Details</a> </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="header-controls">
+        <ul class="header-controls-inner d-none d-lg-flex">
+          <li>
+            <a href="submit-listing.html" class="btn-custom primary">Submit Listing <i class="fas fa-plus"></i> </a>
+          </li>
+        </ul>
+        <!-- Toggler -->
+        <div class="aside-toggler aside-trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+    </nav>
+
+  </header>
+  <!-- Header End -->
+
+  <!-- Subheader Start -->
+  <div class="subheader bg-cover bg-center dark-overlay" style="background-image: url('https://via.placeholder.com/1920x1280')">
+    <div class="container">
+      <div class="subheader-inner">
+        <h1 class="text-white">Pricing</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"> <i class="fas fa-home"></i> </a></li>
+            <li class="breadcrumb-item active" aria-current="page">Pricing</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- Subheader End -->
+
+  <!-- Pricing Start -->
+  <div class="section section-padding">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="acr-pricing">
+            <div class="acr-pricing-header">
+              <h4>Free</h4>
+              <p>Package Includes</p>
+            </div>
+            <div class="acr-pricing-body">
+              <div class="acr-pricing-feature">
+                <h6>Listing Submission: <i data-toggle="tooltip" title="Allowed Listings Per Month" class="fas fa-question-circle"></i></h6>
+                <span>Up to 2 Listings</span>
+              </div>
+              <div class="acr-pricing-feature">
+                <h6>Agent Consultation: <i data-toggle="tooltip" title="Monthly Agent Reports" class="fas fa-question-circle"></i></h6>
+                <span>Not Available</span>
+              </div>
+            </div>
+            <div class="acr-pricing-footer">
+              <a href="#" class="btn-custom-2 grey">Get Package</a>
+              <h4 class="custom-primary">0.00$ <span>/mo</span> </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="acr-pricing hot-plan">
+            <div class="acr-pricing-header">
+              <h4>Basic</h4>
+              <p>Package Includes</p>
+            </div>
+            <div class="acr-pricing-body">
+              <div class="acr-pricing-feature">
+                <h6>Listing Submission: <i data-toggle="tooltip" title="Allowed Listings Per Month" class="fas fa-question-circle"></i> </h6>
+                <span>Up to 5 Listings</span>
+              </div>
+              <div class="acr-pricing-feature">
+                <h6>Agent Consultation: <i data-toggle="tooltip" title="Monthly Agent Reports" class="fas fa-question-circle"></i></h6>
+                <span>Not Available</span>
+              </div>
+            </div>
+            <div class="acr-pricing-footer">
+              <a href="#" class="btn-custom-2 light">Get Package</a>
+              <h4>12.99$ <span>/mo</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="acr-pricing">
+            <div class="acr-pricing-header">
+              <h4>Commercial</h4>
+              <p>Package Includes</p>
+            </div>
+            <div class="acr-pricing-body">
+              <div class="acr-pricing-feature">
+                <h6>Listing Submission: <i data-toggle="tooltip" title="Allowed Listings Per Month" class="fas fa-question-circle"></i></h6>
+                <span>Up to 20 Listings</span>
+              </div>
+              <div class="acr-pricing-feature">
+                <h6>Agent Consultation: <i data-toggle="tooltip" title="Monthly Agent Reports" class="fas fa-question-circle"></i></h6>
+                <span>Monthly Consultation</span>
+              </div>
+            </div>
+            <div class="acr-pricing-footer">
+              <a href="#" class="btn-custom-2 grey">Get Package</a>
+              <h4 class="custom-primary">39.99$ <span>/mo</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Pricing End -->
+
+  <!-- FAQs Start -->
+  <div class="section pt-0">
+    <div class="container">
+
+      <div class="section-title-wrap section-header">
+        <h5 class="custom-primary">FAQ</h5>
+        <h2 class="title">FAQ Pricing</h2>
+      </div>
+
+      <div class="accordion with-gap" id="faqAccordions1">
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" role="button" data-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+            How can I start with buying a home?
+          </div>
+
+          <div id="faqOne" class="collapse show" data-parent="#faqAccordions1">
+            <div class="card-body">
+              <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </p>
+              <ul class="acr-list mb-0">
+                <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
+                <li> Many desktop publishing packages and web page editors now use Lorem Ipsum </li>
+                <li> There are many variations of passages of Lorem Ipsum </li>
+                <li> Internet tend to repeat predefined chunks as necessary </li>
+                <li> Contrary to popular belief, Lorem Ipsum is not simply random text. </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" role="button" data-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+            Is the service free?
+          </div>
+
+          <div id="faqTwo" class="collapse" data-parent="#faqAccordions1">
+            <div class="card-body">
+              <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </p>
+              <ul class="acr-list mb-0">
+                <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
+                <li> Many desktop publishing packages and web page editors now use Lorem Ipsum </li>
+                <li> There are many variations of passages of Lorem Ipsum </li>
+                <li> Internet tend to repeat predefined chunks as necessary </li>
+                <li> Contrary to popular belief, Lorem Ipsum is not simply random text. </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" role="button" data-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+            How many agents can I have at once?
+          </div>
+
+          <div id="faqThree" class="collapse" data-parent="#faqAccordions1">
+            <div class="card-body">
+              <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </p>
+              <ul class="acr-list mb-0">
+                <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
+                <li> Many desktop publishing packages and web page editors now use Lorem Ipsum </li>
+                <li> There are many variations of passages of Lorem Ipsum </li>
+                <li> Internet tend to repeat predefined chunks as necessary </li>
+                <li> Contrary to popular belief, Lorem Ipsum is not simply random text. </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- FAQs End -->
+
+  <!-- Footer Start -->
+  <footer class="acr-footer footer-2">
+
+    <!-- Footer Top Start -->
+    <div class="footer-top">
+      <div class="container">
+        <div class="row footer-btn-wrapper">
+          <div class="col-lg-7 footer-widget">
+            <h4>Download Our App</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+          </div>
+          <div class="col-lg-5 col-md-12 footer-widget">
+            <div class="footer-btn">
+              <a href="#" class="btn-custom-2 grey"> <i class="flaticon-playstore"></i>Google Play</a>
+              <a href="#" class="btn-custom-2 grey"> <i class="flaticon-apple"></i>App Store</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Top End -->
+
+    <!-- Footer Middle Start -->
+    <div class="footer-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-12 footer-widget">
+            <div class="footer-logo"> <img src="https://via.placeholder.com/169x71" alt="acres"> </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+            <div class="dropdown acr-language-selector">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="assets/img/flags/united-states.png" alt="flag">
+                <span>English</span>
+              </a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li> <a href="#"><img src="assets/img/flags/germany.png" alt="flag"> German</a> </li>
+                  <li> <a href="#"><img src="assets/img/flags/russia.png" alt="flag"> Russian</a> </li>
+                  <li> <a href="#"><img src="assets/img/flags/united-states.png" alt="flag">English</a> </li>
+                  <li> <a href="#"><img src="assets/img/flags/spain.png" alt="flag"> Spanish</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-sm-4 footer-widget">
+            <h5 class="widget-title">Menu</h5>
+            <ul>
+              <li> <a href="listing-map.html">Find Home</a> </li>
+              <li> <a href="submit-listing.html">Add Listing</a> </li>
+              <li> <a href="listing-map.html">Listings</a> </li>
+              <li> <a href="blog-grid.html">Blog</a> </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 footer-widget">
+            <h5 class="widget-title">Information</h5>
+            <ul>
+              <li> <a href="about-us.html">About Us</a> </li>
+              <li> <a href="contact-us.html">Contact Us</a> </li>
+              <li> <a href="services.html">Services</a> </li>
+              <li> <a href="faq.html">FAQ</a> </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-4 footer-widget">
+            <h5 class="widget-title">Legal</h5>
+            <ul>
+              <li> <a href="legal.html">Privacy Policy</a> </li>
+              <li> <a href="legal.html">Refund Policy</a> </li>
+              <li> <a href="legal.html">Cookie Policy</a> </li>
+              <li> <a href="legal.html">Legal Terms</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Middle End -->
+
+    <!-- Footer Bottom Start -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <p class="m-0">&copy; Copyright 2020 - <a href="#">AndroThemes</a> All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-5">
+            <ul>
+              <li> <a href="listing-map.html">Find a Home</a> </li>
+              <li> <a href="submit-listing.html">Add Listing</a> </li>
+              <li> <a href="agency-archive.html">View Agencies</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom End -->
+
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Vendor Scripts -->
+  <script src="assets/js/plugins/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/plugins/popper.min.js"></script>
+  <script src="assets/js/plugins/waypoint.js"></script>
+  <script src="assets/js/plugins/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/plugins/jquery.slimScroll.min.js"></script>
+  <script src="assets/js/plugins/imagesloaded.min.js"></script>
+  <script src="assets/js/plugins/jquery.steps.min.js"></script>
+  <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+  <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+  <script src="assets/js/plugins/slick.min.js"></script>
+  <script src="assets/js/plugins/select2.min.js"></script>
+
+
+  <!-- Acres Scripts -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

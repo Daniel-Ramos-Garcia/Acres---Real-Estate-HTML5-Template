@@ -1,0 +1,26 @@
+.sidebar ul li{
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sidebar ul li a{
+  display: block;
+  color: #4a5779;
+  padding: 10px 0;
+}
+.sidebar ul li a:hover{
+  color: #ED4E53;
+}
+pre{
+  background-color: #f3f3f3;
+  margin-bottom: 30px;
+}
+.docs-banner{
+  text-align: center;
+  padding: 120px 0;
+  border-radius: .25rem;
+  margin-bottom: 80px;
+}
+.docs-banner::before{
+  border-radius: 8px;
+}
